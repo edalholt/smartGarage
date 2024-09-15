@@ -17,3 +17,11 @@ Both to ensure the door state is correct, and because it is also possible to con
 
 - For the relay, i simply use a relay-module with the required components pre-installed. This also do not take up too much space in the box. The module requires 5v and GND, and is controlled by pin 2 in my case. The I/O pins is selected when initializing the GarageDoor object from [smartGarage.ino](/smartGarage.ino)
 - For the sensor i utilize the built in pull-up resistor in the ESP32. Pin 14 is set to input with pull-up. The other side is connected to GND for pulling down the input voltage when triggered
+
+## Photos
+
+<p align="center">
+<img src="images/topDown.jpeg" height="200px">
+<img src="images/garage.jpeg" height="200px">
+<img src="images/magneticSwitch.jpeg" height="200px">
+</p>
